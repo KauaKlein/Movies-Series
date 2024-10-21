@@ -15,7 +15,7 @@ class MoviesSeeder extends Seeder
      */
     public function run(): void
     {
-        // Movies::factory()->count(20)->create();
+
         $movies = [
             ['title' => 'The Shawshank Redemption', 'genre' => 'Drama', 'year' => 1994, 'rating' => 9.3],
             ['title' => 'The Godfather', 'genre' => 'Crime', 'year' => 1972, 'rating' => 9.2],
@@ -24,7 +24,7 @@ class MoviesSeeder extends Seeder
             ['title' => '12 Angry Men', 'genre' => 'Drama', 'year' => 1957, 'rating' => 8.9],
             ['title' => 'Schindler\'s List', 'genre' => 'Biography', 'year' => 1993, 'rating' => 8.9],
             ['title' => 'The Lord of the Rings: The Return of the King', 'genre' => 'Adventure', 'year' => 2003, 'rating' => 8.9],
-            ['title' => 'Pulp Fiction', 'genre' => 'Crime', 'year' => 1994, 'rating' => 8.9],
+           /* ['title' => 'Pulp Fiction', 'genre' => 'Crime', 'year' => 1994, 'rating' => 8.9],
             ['title' => 'The Good, the Bad and the Ugly', 'genre' => 'Western', 'year' => 1966, 'rating' => 8.8],
             ['title' => 'Fight Club', 'genre' => 'Drama', 'year' => 1999, 'rating' => 8.8],
             ['title' => 'Forrest Gump', 'genre' => 'Drama', 'year' => 1994, 'rating' => 8.8],
@@ -46,7 +46,7 @@ class MoviesSeeder extends Seeder
             ['title' => 'Saving Private Ryan', 'genre' => 'Drama', 'year' => 1998, 'rating' => 8.5],
             ['title' => 'The Green Mile', 'genre' => 'Crime', 'year' => 1999, 'rating' => 8.5],
             ['title' => 'Léon: The Professional', 'genre' => 'Crime', 'year' => 1994, 'rating' => 8.5],
-            ['title' => 'The Pianist', 'genre' => 'Biography', 'year' => 2002, 'rating' => 8.5]
+            ['title' => 'The Pianist', 'genre' => 'Biography', 'year' => 2002, 'rating' => 8.5] */
         ];
         Movies::insert($movies);
     }

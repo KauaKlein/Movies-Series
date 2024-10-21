@@ -19,7 +19,11 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
         $this->call([
-            MoviesSeeder::class
+            MoviesSeeder::class,
+            SeriesSeeder::class,
+            ActorsSeeder::class,
+            SeasonSeeder::class,
+            EpisodeSeeder::class,
         ]);
     }
 }

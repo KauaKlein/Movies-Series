@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 /***
  * Command to create (-m with migration)
  *
- * php artisan make:model Movies -m
+ * php artisan make:model Serie -m
  *
  */
 

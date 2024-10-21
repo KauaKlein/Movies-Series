@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('genre');
-            $table->integer('year');
+            $table->string('year');
             $table->float('rating');
             $table->timestamps();
         });

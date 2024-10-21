@@ -93,6 +93,7 @@ class MoviesController extends Controller
                 year:$request->year,
                 genre:$request->genre,
                 rating:$request->rating
+
             );
             $out=$this->use_case_edit->execute($dtoin);
             return response()->json($out, 200);

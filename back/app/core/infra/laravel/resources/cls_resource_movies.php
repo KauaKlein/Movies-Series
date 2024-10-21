@@ -1,6 +1,7 @@
 <?php
-
 namespace App\core\infra\laravel\resources;
+
+
 
 use App\core\base\interface\int_entidade;
 use App\core\movies\entity\cls_movies;
